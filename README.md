@@ -24,12 +24,8 @@ pip install numpy
 
 ▶ How to Run the Programs
 
-Clone the repository:
-git clone https://github.com/your-username/numpy-practice.git
-
-
 Navigate to the folder:
-cd numpy-practice
+cd numpy
 
 Run any file:
 python q1_create_array.py
