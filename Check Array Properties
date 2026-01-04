@@ -1,0 +1,15 @@
+# Q2. Check Array Properties
+'''
+Create a NumPy array [1, 2, 3, 4, 5] and print:
+number of dimensions
+shape
+data type
+total elements
+'''
+import numpy as np
+np_arr = np.array([1,2,3,4,5])
+
+print(f"Number of Dimensions: {np_arr.ndim}")
+print(f"Number of Shape: {np_arr.shape}")
+print(f"Number of Data type: {np_arr.dtype}")
+print(f"Number of Total Elements : {np_arr.size}")
