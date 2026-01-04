@@ -1,0 +1,8 @@
+# Q1. Create a NumPy Array
+# Create a 1D NumPy array with elements [5, 10, 15, 20, 25] and print it.
+
+import numpy as np
+nums = [5,10,15,20,25]
+np_arr =  np.array(nums)
+print(f"NumPy Array: {np_arr}")
+print(f"Type of Array: {type(np_arr)}")
