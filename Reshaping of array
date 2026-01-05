@@ -1,0 +1,14 @@
+#Q4. Create a 1D array with numbers 1 to 12 and reshape it into:
+'''
+(3, 4)
+(2, 6)
+'''
+
+import numpy as np
+np_arr = np.arange(1,13)
+arr1 = np_arr.reshape(3,4)
+arr2 = np_arr.reshape(2,6)
+
+print(f"Original Array \n{np_arr}")
+print(f"Reshaping (3,4): \n{arr1}")
+print(f"Reshaping (2,6): \n{arr2}")
