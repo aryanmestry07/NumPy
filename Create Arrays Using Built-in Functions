@@ -1,0 +1,19 @@
+# Q3. Create Arrays Using Built-in Functions
+'''
+Create:
+A zeros array of size 6
+A ones array of shape (2, 3)
+An array using arange() from 1 to 10 with step 2
+'''
+
+import numpy as np
+
+arr1 = np.zeros(6)   # arrays of size 6
+arr2 = np.ones((2,3)) # arrays of ones , shape(2,3)
+arr3 = np.arange(1,10,2)  # using arange() function
+
+
+
+print(arr1)
+print(arr2)
+print(arr3)
