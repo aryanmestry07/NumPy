@@ -1,0 +1,17 @@
+# 1D Indexing & Slicing
+'''
+Given the array [10, 20, 30, 40, 50, 60]:
+Print the first element
+Print the last element
+Print elements from index 1 to 4
+Print alternate elements
+'''
+
+import numpy as np
+
+arr = np.array([10,20,30,40,50,60])
+
+print(f"First Element: {arr[0]}")
+print(f"Last Element: {arr[-1]}")
+print(f"Elements from 1 to 4: {arr[1:5]}")
+print(f"Alternative Element: {arr[::2]}")
