@@ -1,0 +1,19 @@
+# Q12. Axis-wise Sum
+'''
+Create a 2D array:
+[[1, 2, 3],
+ [4, 5, 6]]
+Find sum row-wise
+Find sum column-wise
+'''
+
+import numpy as np
+
+arr = np.array([[1,2,3],[4,5,6]])
+
+sum_rows = np.sum(arr, axis = 1)
+sum_cols = np.sum(arr, axis = 0)
+
+print(f"Original Array: \n{arr}")
+print(f"Row Wise: {sum_rows}")
+print(f"Column Wise: {sum_cols}")
