@@ -1,0 +1,17 @@
+# Q11. Aggregation Functions
+'''
+Create a NumPy array [3, 6, 9, 12, 15] and print:
+sum
+product
+mean
+standard deviation
+'''
+import numpy as np
+
+arr = np.array([3,6,9,12,15])
+
+print(f"Original Array: {arr}")
+print(f"Sum of Array: {np.sum(arr)}")
+print(f"Product of Array: {np.prod(arr)}")
+print(f"Mean of Array: {np.mean(arr)}")
+print(f"Standard Deviation of Array: {np.std(arr)}")
