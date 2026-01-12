@@ -1,0 +1,15 @@
+'''
+Create an array [1, 4, 9, 16, 25] and print:
+square root of all elements
+square of all elements
+'''
+
+import numpy as np
+
+arr = np.array([1,4,9,16,25])
+
+sqrt_arr = np.sqrt(arr)
+sq_arr = np.square(arr)
+
+print(f"Square Root of all Elements: {sqrt_arr}")
+print(f"Square of all Elements: {sq_arr}")
