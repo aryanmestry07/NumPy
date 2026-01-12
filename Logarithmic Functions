@@ -1,0 +1,10 @@
+'''
+Create an array [1, 10, 100, 1000] and calculate:
+log base 10
+log base 2
+'''
+import numpy as np
+arr = np.array([1,10,100,1000])
+
+print(f"Log Base 10: {np.log10(arr)}")
+print(f"Log Base 2: {np.log2(arr)}")
